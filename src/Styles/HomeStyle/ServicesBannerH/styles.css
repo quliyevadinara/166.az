@@ -1,0 +1,174 @@
+.servicesBannerHome-container {
+  margin: 0 3rem;
+}
+.servicesBannerHome-container .head-text {
+  font-family: "Mulish", sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 67.77px;
+}
+.servicesBannerHome-container .head-text span {
+  color: #ffcc4d;
+}
+.servicesBannerHome-container .locatons-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  margin-top: 1rem;
+}
+.servicesBannerHome-container .locatons-sec div {
+  width: 150px;
+  height: 46px;
+  border-radius: 8px;
+  border: 1px solid #f4f4f4;
+  background-color: #fafafa;
+  color: black;
+  padding: 0px 11px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.servicesBannerHome-container .services-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.servicesBannerHome-container .services-banner span {
+  font-size: 32px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  line-height: 40.16px;
+}
+.servicesBannerHome-container .services-banner .banner-1,
+.servicesBannerHome-container .services-banner .banner-2 {
+  background-color: #ffcc4d;
+  border-radius: 8px;
+  height: 408px;
+  position: relative;
+}
+.servicesBannerHome-container .services-banner .banner-1 img,
+.servicesBannerHome-container .services-banner .banner-2 img {
+  position: absolute;
+  top: 85%;
+  right: 5%;
+  z-index: 999;
+}
+.servicesBannerHome-container .services-banner .banner-1 {
+  width: 600px;
+}
+.servicesBannerHome-container .services-banner .banner-1 .car-img {
+  position: absolute;
+  top: 17%;
+  left: 0;
+  z-index: 1;
+}
+.servicesBannerHome-container .services-banner .banner-1 span {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+.servicesBannerHome-container .services-banner .banner-2 {
+  width: 288px;
+}
+.servicesBannerHome-container .services-banner .banner-2 span {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+.servicesBannerHome-container .services-banner .banner-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 408px;
+}
+.servicesBannerHome-container .services-banner .banner-3 .small-banner {
+  position: relative;
+  width: 288px;
+  height: 192px;
+  background-color: #ffcc4d;
+  border-radius: 8px;
+}
+.servicesBannerHome-container .services-banner .banner-3 .small-banner .img-1 {
+  position: absolute;
+  top: 70%;
+  right: 5%;
+}
+.servicesBannerHome-container .services-banner .banner-3 .small-banner span {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+.servicesBannerHome-container .services-banner .banner-3 .small-banner-2 {
+  width: 288px;
+  height: 192px;
+  background-color: #ffcc4d;
+  border-radius: 8px;
+  position: relative;
+}
+.servicesBannerHome-container .services-banner .banner-3 .small-banner-2 .img-2 {
+  position: absolute;
+  top: 70%;
+  right: 5%;
+}
+.servicesBannerHome-container .services-banner .banner-3 .small-banner-2 span {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+.servicesBannerHome-container .customer-sec {
+  margin-top: 4rem;
+}
+.servicesBannerHome-container .customer-sec .section-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.servicesBannerHome-container .customer-sec .section-text .title {
+  width: 704px;
+  height: 120px;
+  font-family: "Mulish", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60.24px;
+}
+.servicesBannerHome-container .customer-sec .section-text .description {
+  width: 497px;
+  height: 104px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.08px;
+  color: #697A9F;
+}
+.servicesBannerHome-container .customer-sec .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 3rem;
+}
+.servicesBannerHome-container .customer-sec .box-container .box {
+  width: 392px;
+  height: 170px;
+  border: 1px solid #E4E4E4;
+  border-radius: 8px;
+}
+.servicesBannerHome-container .customer-sec .box-container .box .box-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.servicesBannerHome-container .customer-sec .box-container .box .box-details .title {
+  font-family: "Mulish", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80.32px;
+  margin-top: 1rem;
+}
+.servicesBannerHome-container .customer-sec .box-container .box .box-details .title span {
+  color: #FFCC4D;
+}/*# sourceMappingURL=styles.css.map */

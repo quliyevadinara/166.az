@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        color: #FFCC4D;
+        border-bottom:1px solid #FFCC4D ;
+    }
+}

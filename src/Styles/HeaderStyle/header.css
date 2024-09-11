@@ -1,0 +1,127 @@
+.header-container {
+  width: 100%;
+  display: block;
+}
+.header-container .topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 3rem;
+}
+.header-container .topbar .topbar-buttons {
+  display: flex;
+  align-items: center;
+}
+.header-container .topbar .topbar-buttons .button-1 {
+  height: 38px;
+  border: 1px solid #ECAC00;
+  background-color: white;
+  color: #ECAC00;
+  border-radius: 8px;
+  padding: 10px;
+  gap: 10px;
+  z-index: 15;
+}
+.header-container .topbar .topbar-buttons .button-2 {
+  height: 38px;
+  border: 1px solid rgb(221, 219, 219);
+  color: black;
+  border-radius: 8px;
+  background-color: white;
+  padding: 10px;
+  gap: 10px;
+  margin-left: -6px;
+}
+.header-container .topbar .topbar-onlinePay-lang {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-container .topbar .topbar-onlinePay-lang .online-pay {
+  height: 24px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.header-container .topbar .topbar-onlinePay-lang .online-pay .creditCard-icon {
+  font-size: 24px;
+  margin-top: 6px;
+}
+.header-container .topbar .topbar-onlinePay-lang .lang-sec ul {
+  list-style-type: none;
+  padding: 0;
+}
+.header-container .topbar .topbar-onlinePay-lang .lang-sec ul .en-lang {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.header-container .topbar .topbar-onlinePay-lang .lang-sec ul .en-lang ul {
+  opacity: 0;
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 17px;
+}
+.header-container .topbar .topbar-onlinePay-lang .lang-sec ul .en-lang:hover ul {
+  display: block;
+  opacity: 1;
+}
+.header-container .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 3rem;
+}
+.header-container .navbar .header-img {
+  width: 94px;
+  height: 74px;
+}
+.header-container .navbar .navbar-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+.header-container .navbar .navbar-sec .navbar-link {
+  text-decoration: none;
+  color: black;
+}
+.header-container .navbar .navbar-sec .company-link {
+  position: relative;
+  display: inline-block;
+}
+.header-container .navbar .navbar-sec .company-link .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  z-index: 1;
+}
+.header-container .navbar .navbar-sec .company-link:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.header-container .navbar .navbar-sec .company-link:hover .dropdown-content a {
+  text-decoration: none;
+  color: black;
+}
+.header-container .navbar .navbar-sec .call-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 136px;
+  height: 36px;
+  border-radius: 8px;
+  padding: 4px 10px;
+  font-size: 17px;
+  gap: 10px;
+  background-color: #FFCC4D;
+  color: white;
+  border: 1px solid #FFCC4D;
+}/*# sourceMappingURL=header.css.map */

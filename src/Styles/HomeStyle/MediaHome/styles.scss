@@ -1,0 +1,28 @@
+.media-container {
+  margin: 0 3rem;
+  .head-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1 {
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 60.24px;
+      color: #001d5b;
+    }
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-decoration: none;
+      gap: 5px;
+      color: #ffcc4d;
+    }
+  }
+  
+  .news-banner {
+    img {
+      width: 100%;
+    }
+  }
+}

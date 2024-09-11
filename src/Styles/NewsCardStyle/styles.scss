@@ -1,0 +1,42 @@
+.news-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 24px;
+    .news-card {
+      width: 392px;
+      height: 379px;
+      border-radius: 8px;
+      background-color: #fafafa;
+      .text {
+        padding: 1.5rem;
+        display: flex;
+        align-items: left;
+        gap: 10px;
+        flex-direction: column;
+        .date{
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            font-family: "Popins", sans-serif;
+            color: #BFBFBF;
+        }
+        .title{
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 27px;
+            font-family: "Poppins", sans-serif;
+            color: #000000;
+        }
+        .desc{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20.08px;
+            font-family: "Mulish", sans-serif;
+            color: #989898;
+        }
+      }
+      img {
+        border-radius: 8px 8px 0 0;
+      }
+    }
+  }

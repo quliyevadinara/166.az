@@ -1,0 +1,25 @@
+.media-container {
+  margin: 0 3rem;
+}
+.media-container .head-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.media-container .head-text h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60.24px;
+  color: #001d5b;
+}
+.media-container .head-text a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  gap: 5px;
+  color: #ffcc4d;
+}
+.media-container .news-banner img {
+  width: 100%;
+}/*# sourceMappingURL=styles.css.map */

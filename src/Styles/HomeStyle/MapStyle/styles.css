@@ -1,0 +1,14 @@
+.map-container {
+  display: block;
+  margin: 0 3rem;
+  margin-top: 4rem;
+}
+.map-container span {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60.24px;
+  font-family: "Mulish", sans-serif;
+}
+.map-container div {
+  margin: 4rem;
+}/*# sourceMappingURL=styles.css.map */

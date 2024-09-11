@@ -1,0 +1,108 @@
+.slider-container {
+  margin: 0 3rem;
+  padding: 0;
+  margin-top: 4rem;
+}
+.slider-container .head-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.slider-container .head-container div {
+  display: flex;
+  flex-direction: column;
+  font-family: "Mulish", sans-serif;
+}
+.slider-container .head-container div .head {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60.24px;
+  color: #000000;
+}
+.slider-container .head-container div .title {
+  width: 496px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.slider-container .head-container .total .total-1 {
+  font-size: 24px;
+  line-height: 30.12px;
+  font-weight: 600;
+  color: #5E5E5E;
+}
+.slider-container .head-container .total .total-2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50.2px;
+  color: #2D2D2D;
+}
+
+.review-card {
+  width: 372px !important;
+  height: 325px !important;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin: 1rem;
+  border: 1px solid rgba(105, 105, 105, 0.1803921569);
+}
+.review-card .img-num {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+.review-card .img-num span {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Mulish", sans-serif;
+  line-height: 22.59px;
+  color: #989898;
+}
+.review-card .review-details {
+  width: 344px;
+  height: 169px;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.review-card .review-details p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Mulish", sans-serif;
+  line-height: 20.08px;
+  color: #989898;
+}
+.review-card .review-details span {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Mulish", sans-serif;
+  line-height: 22.59px;
+  color: #ecac00;
+  margin-top: 2rem;
+}
+
+.review-rating {
+  color: #ffc107;
+  font-size: 18px;
+}
+
+.review-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.review-card h4 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.slick-slider button {
+  display: block;
+}
+
+.slick-arrow {
+  display: block;
+  color: #ecac00;
+}/*# sourceMappingURL=styles.css.map */
