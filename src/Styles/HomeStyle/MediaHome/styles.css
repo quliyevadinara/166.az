@@ -1,5 +1,6 @@
 .media-container {
   margin: 0 3rem;
+  margin-bottom: 4rem;
 }
 .media-container .head-text {
   display: flex;

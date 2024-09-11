@@ -3,6 +3,7 @@ import PageContainer from "../Common/PageContainer";
 import CompanyPageNavbar from "../Common/CompanyPageNavbar";
 import TeamCard from "../Components/TeamCard";
 import {teamData} from "../Data/teamData";
+import LocationPath from "../Common/LocationPath";
 const OurTeam = () => {
   const textStyle = {
     fontSize: "32px",
@@ -14,6 +15,7 @@ const OurTeam = () => {
   };
   return (
     <PageContainer>
+      <LocationPath />
       <CompanyPageNavbar />
       <span style={textStyle}>Komandamız</span>
       <div className="news-container" style={{ margin: "0 3rem" }}>

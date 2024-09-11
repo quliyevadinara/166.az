@@ -3,12 +3,17 @@
   align-items: center;
   justify-content: center;
   gap: 20px;
+  padding-top: 2rem;
 }
+
 .navbar a {
   text-decoration: none;
   color: black;
+  padding: 1rem;
+  border-bottom: 1px solid white;
 }
+
 .navbar a:hover {
-  color: #FFCC4D;
-  border-bottom: 1px solid #FFCC4D;
+  color: #ffcc4d;
+  border-bottom: 1px solid #ffcc4d;
 }/*# sourceMappingURL=styles.css.map */

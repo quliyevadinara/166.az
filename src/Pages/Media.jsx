@@ -4,6 +4,7 @@ import CompanyPageNavbar from "../Common/CompanyPageNavbar";
 import NewsCard from "../Components/NewsCard";
 import { news } from "../Data/newsData";
 import Banner from "../Common/Banner";
+import LocationPath from "../Common/LocationPath";
 const Media = () => {
   const newsarr=news.concat(news, news,news);
   const textStyle={
@@ -16,6 +17,7 @@ const Media = () => {
   }
   return (
     <PageContainer>
+      <LocationPath />
       <CompanyPageNavbar />
       <span style={textStyle}>Mediada Biz</span>
       <div className="news-container" style={{margin:"0 3rem"}}>

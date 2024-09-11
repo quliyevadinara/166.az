@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { reviews } from "../Data/reviewsData";
 import "../Styles/ReviewStyle/styles.css";
-const Review = () => {
+const Review = ({ desc }) => {
   const settings = {
     dots: false,
     infinite: true,
@@ -29,19 +29,21 @@ const Review = () => {
 
   return (
     <div className="slider-container">
-      <div className="head-container">
-        <div>
-          <span className="head">Müştəri rəyləri</span>
-          <span className="title">
-            Lorem Ipsum Dolor Sit Amet Consectetur. Magna Tellus Nibh Lectus
-            Congue Amet.{" "}
-          </span>
+      {desc && (
+        <div className="head-container">
+          <div>
+            <span className="head">Müştəri rəyləri</span>
+            <span className="title">
+              Lorem Ipsum Dolor Sit Amet Consectetur. Magna Tellus Nibh Lectus
+              Congue Amet.{" "}
+            </span>
+          </div>
+          <div className="total">
+            <span className="total-1">Total Reviews</span>
+            <span className="total-2">122 K</span>
+          </div>
         </div>
-        <div className="total">
-          <span className="total-1">Total Reviews</span>
-          <span className="total-2">122 K</span>
-        </div>
-      </div>
+      )}
       <Slider {...settings}>
         {reviews.map((review) => (
           <div className="review-card" key={review.id}>

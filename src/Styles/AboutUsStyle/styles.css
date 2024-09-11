@@ -3,4 +3,194 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.about-header {
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+  gap: 10px;
+}
+
+.about-title-line {
+  width: 52px;
+  height: 2px;
+  background-color: #ffcc4d;
+}
+
+.about-container {
+  display: flex;
+  align-items: start;
+  padding: 2rem 0;
+  gap: 20px;
+}
+
+.about-tag {
+  line-height: 36px;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: italic;
+  display: block;
+  padding: 2rem 0;
+}
+
+.about-text {
+  line-height: 26px;
+  font-size: 16px;
+  font-weight: 400;
+  display: block;
+  padding-top: 2rem;
+}
+
+.missiya-container {
+  display: flex;
+  padding-left: 3rem;
+  gap: 20px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.missiya-container .missiya-numbers {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #1d1d1d;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 47px 268px 47px 108px;
+  height: -moz-max-content;
+  height: max-content;
+}
+.missiya-container .missiya-number {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.08px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+}
+.missiya-container .number {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 45.18px;
+}
+.missiya-container .mission-texts {
+  display: flex;
+  flex-direction: column;
+}
+.missiya-container .mission-texts .about-header {
+  padding-left: 0;
+}
+.missiya-container .mission-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 504px;
+}
+.missiya-container .mission-qualities {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding-top: 1rem;
+}
+.missiya-container .mission-quality {
+  width: 239px;
+  height: 192px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  text-align: center;
+}
+.missiya-container .mission-quality span {
+  width: 230px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.two-stages {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+.two-stages .stages {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.two-stages .stage {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 504px;
+  color: #4c4c4c;
+  height: 143px;
+}
+.two-stages .stage-number {
+  width: 44px;
+  height: 44px;
+  background-color: #d7d7d7;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.two-stages .stage-text {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.two-stages .line {
+  width: 8px;
+  height: 170px;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+}
+.two-stages .lines {
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  position: relative;
+}
+.two-stages .hovered {
+  background-color: #ffcc4d;
+}
+.two-stages .stage:hover .stage-number {
+  background-color: #ffcc4d;
+}
+.two-stages .right {
+  align-items: flex-end;
+  text-align: right;
+}
+.two-stages .left {
+  align-items: flex-start;
+  text-align: left;
+}
+.two-stages .lines::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  position: absolute;
+  left: -3px;
+  bottom: -5px;
+}
+
+.customer-review {
+  margin-bottom: 5rem;
 }/*# sourceMappingURL=styles.css.map */
